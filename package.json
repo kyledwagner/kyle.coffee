@@ -1,0 +1,19 @@
+{
+  "name": "kyle.coffee",
+  "version": "1.0.0",
+  "description": "A portfolio website built for my new domain, kyle.coffee in 2020.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyledwagner/kyle.coffee.git"
+  },
+  "author": "Kyle Wagner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyledwagner/kyle.coffee/issues"
+  },
+  "homepage": "https://github.com/kyledwagner/kyle.coffee#readme"
+}
