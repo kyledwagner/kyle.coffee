@@ -4,7 +4,7 @@
   "description": "A portfolio website built for my new domain, kyle.coffee in 2020.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/kyledwagner/kyle.coffee#readme",
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "autoprefixer": "^9.8.5",
+    "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.5.1"
   },
   "devDependencies": {
