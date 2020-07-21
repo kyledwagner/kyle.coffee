@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kyledwagner/kyle.coffee/issues"
   },
-  "homepage": "https://github.com/kyledwagner/kyle.coffee#readme"
+  "homepage": "https://github.com/kyledwagner/kyle.coffee#readme",
+  "dependencies": {
+    "tailwindcss": "^1.5.1"
+  }
 }
