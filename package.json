@@ -18,9 +18,10 @@
   "homepage": "https://github.com/kyledwagner/kyle.coffee#readme",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
-    "autoprefixer": "^9.8.5",
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.5",
     "postcss-cli": "^7.1.1",
-    "tailwindcss": "^1.5.1"
+    "tailwindcss": "^2.0.3"
   },
   "devDependencies": {
     "gulp": "^4.0.2"
