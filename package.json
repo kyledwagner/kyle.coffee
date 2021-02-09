@@ -1,29 +1,25 @@
 {
   "name": "kyle.coffee",
   "version": "1.0.0",
-  "description": "A portfolio website built for my new domain, kyle.coffee in 2020.",
-  "main": "main.js",
-  "scripts": {
-    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kyledwagner/kyle.coffee.git"
-  },
-  "author": "Kyle Wagner",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kyledwagner/kyle.coffee/issues"
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
-  "homepage": "https://github.com/kyledwagner/kyle.coffee#readme",
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
-    "autoprefixer": "^10.2.4",
-    "postcss": "^8.2.5",
-    "postcss-cli": "^7.1.1",
     "tailwindcss": "^2.0.3"
   },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "snowpack": "^3.0.11",
+    "postcss-cli": "^8.3.1",
+    "postcss": "^8.2.5",
+    "autoprefixer": "^10.2.4",
+    "@snowpack/plugin-build-script": "^2.1.0",
+    "prettier": "^2.2.1"
   }
 }
